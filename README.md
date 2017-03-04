@@ -8,7 +8,7 @@
 ![搜索.gif](https://github.com/yiyi0202/WYCitySelector/blob/master/搜索.gif)
 ***
 # 2. 使用方法
-（1）下载，直接将 Demo 里的 **WYCitySelectorCodes** 文件夹拖入项目中；
+（1）下载 [WYCitySelector](https://github.com/yiyi0202/WYCitySelector)，直接将 Demo 里的 **WYCitySelectorCodes** 文件夹拖入项目中；
 
 （2）在需要跳转到城市选择界面的控制器里导入头文件：
 ```
