@@ -3,9 +3,9 @@
 ***
 # 1. WYCitySelector 效果展示
 
-![普通选择.gif]()
+![普通选择.gif](https://github.com/yiyi0202/WYCitySelector/blob/master/普通选择.gif)
 
-![搜索.gif]()
+![搜索.gif](https://github.com/yiyi0202/WYCitySelector/blob/master/搜索.gif)
 ***
 # 2. 使用方法
 （1）下载，直接将 Demo 里的 **WYCitySelectorCodes** 文件夹拖入项目中；
