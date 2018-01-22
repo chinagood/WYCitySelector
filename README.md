@@ -33,33 +33,3 @@
 }
 ```
 ***
-# 3. 一些配置
-（1）AppDelegate.m 全局设置一些样式：
-```
-#pragma mark - 导航栏
-    
-    [UINavigationBar appearance].barTintColor = [UIColor orangeColor];// 导航栏的颜色
-    [UINavigationBar appearance].titleTextAttributes = @{NSFontAttributeName : [UIFont systemFontOfSize:17.0], NSForegroundColorAttributeName : [UIColor whiteColor]};// 导航栏中间字体的大小和颜色
-    [UINavigationBar appearance].tintColor = [UIColor whiteColor];// 导航栏 barButtonItem 的颜色
-    
-    
-#pragma mark - searchBar
-    
-    [UISearchBar appearance].tintColor = [UIColor orangeColor];// 光标的颜色
-    [[UIBarButtonItem appearanceWhenContainedIn:[UISearchBar class], nil] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:195 / 255.0 green:195 / 255.0 blue:195 / 255.0 alpha:1]} forState:UIControlStateNormal];// 取消按钮的颜色
-```
-（2）Info.plist 
-```
-    <!-- 隐私权限申请 -->
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>App需要您的同意，才能访问位置</string>
-```
-```
-    <!-- 本地化 -->
-	<key>CFBundleDevelopmentRegion</key>
-	<string>zh_CN</string>
-```
-***
-# 4. 完成
-做了以上工作，就可以完成一个城市选择器。
-***
